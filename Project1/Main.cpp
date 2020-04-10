@@ -70,14 +70,15 @@ int main()
 	{
 		cout << " " << *iter;
 	}
-	cout << endl;
 
 	// If you do not know what the return value is, then
 	// check set::erase in cplusplus.com
 	cout << endl;
 
 	// Print set1.
+	cout << "set1: ";
 	printSet(set1);
+	cout << endl;
 
 	// iterator  erase (const_iterator position);
 	// This function is different from the previous one,
@@ -89,7 +90,8 @@ int main()
 
 
 	// Print set1.
-
+	printSet(set1);
+	cout << endl;
 
 	// pair<iterator,bool> insert (const value_type& val);
 	// Use the function insert to insert 4 and 8 in set1.
@@ -98,7 +100,7 @@ int main()
 
 	// Print set1.
 
-	
+
 	set<int>::iterator first = set1.begin();
 	set<int>::iterator second = ++set1.begin();
 	// iterator erase(const_iterator first, const_iterator last);
@@ -116,7 +118,7 @@ int main()
 
 	cout << "\n\n----------------------------------------------------";
 	cout << "\n\nThe output for the next sections depends on your implementation.";
-	
+
 
 	/***************************************************************************
 	* MAPS
@@ -137,7 +139,7 @@ int main()
 
 	cout << "\n\n----------------------------------------------------";
 
-	cout  <<  endl;
+	cout << endl;
 	system("Pause");
 	return 0;
 }
