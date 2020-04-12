@@ -1,10 +1,10 @@
 /*
 	Iacob, Marius
 
-	March 11, 2020
+	April 11, 2020
 
 	CS A250
-	Assignment 10 STL Vectors and Lists
+	assignment_10_stl_sets_and_maps
 */
 
 #include <iostream>
